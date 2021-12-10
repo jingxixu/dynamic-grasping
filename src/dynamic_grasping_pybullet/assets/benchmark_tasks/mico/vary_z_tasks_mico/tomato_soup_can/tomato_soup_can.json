@@ -1,0 +1,140 @@
+{
+    "conveyor_urdf": "/home/qsel/ireti_test/Spring_2021/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/conveyor.urdf", 
+    "MOVEIT_LINK_TO_GRASPING_POINT": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0.0, 
+            0.0, 
+            0.0, 
+            1.0
+        ]
+    ], 
+    "back_off": 0.05, 
+    "reachability_data_dir": "/home/qsel/ireti_test/Spring_2021/dynamic_grasping_ws_v2/src/mico_reachability_config/data", 
+    "fix_motion_planning_time": 0.14, 
+    "use_gt": false, 
+    "GRIPPER_JOINT_NAMES": [
+        "m1n6s200_joint_finger_1", 
+        "m1n6s200_joint_finger_tip_1", 
+        "m1n6s200_joint_finger_2", 
+        "m1n6s200_joint_finger_tip_2"
+    ], 
+    "conveyor_z_low": 0.01, 
+    "num_trials": 100, 
+    "record_videos": false, 
+    "use_baseline_method": false, 
+    "use_lstm_prediction": false, 
+    "GRASPIT_LINK_TO_PYBULLET_LINK": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0.0, 
+            0.0, 
+            0.0, 
+            1.0
+        ]
+    ], 
+    "robot_config_name": "mico", 
+    "disable_reachability": false, 
+    "gripper_urdf": "/home/qsel/ireti_test/Spring_2021/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/mico/mico_hand.urdf", 
+    "max_check": 3, 
+    "obstacle_distance_high": 0.25, 
+    "use_previous_jv": false, 
+    "large_prediction_threshold": 0.3, 
+    "graspit_approach_dir": "z", 
+    "grasp_threshold": 0.03, 
+    "realtime": false, 
+    "fix_grasp_ranking_time": 0.135, 
+    "num_obstacles": 3, 
+    "approach_prediction": true, 
+    "distance_travelled_threshold": 0.1, 
+    "object_name": "tomato_soup_can", 
+    "load_obstacles": false, 
+    "close_delay": 0.5, 
+    "use_box": true, 
+    "result_dir": "vary_z_mico_mico_corona_2021-02-08_13-06-41/tomato_soup_can", 
+    "obstacle_distance_low": 0.15, 
+    "motion_aware_model_path": null, 
+    "lstm_model_filepath": null, 
+    "result_file_path": "vary_z_mico_mico_corona_2021-02-08_13-06-41/tomato_soup_can/tomato_soup_can.csv", 
+    "embed_obstacles_sdf": false, 
+    "circular_distance_high": 0.5, 
+    "trajectory_dir": "vary_z_mico_mico_corona_2021-02-08_13-06-41/tomato_soup_can/trajectories", 
+    "failure_only": false, 
+    "replay_trajectory": false, 
+    "distance_between_region": 0.05, 
+    "use_motion_aware": false, 
+    "lazy_threshold": 0.3, 
+    "exp_id": null, 
+    "use_joint_space_dist": true, 
+    "approach_prediction_duration": 1.0, 
+    "PYBULLET_LINK_TO_COM": [
+        [
+            -0.002216, 
+            -1e-06, 
+            -0.06
+        ], 
+        [
+            0.0, 
+            0.0, 
+            0.0, 
+            1.0
+        ]
+    ], 
+    "PYBULLET_LINK_COM": [
+        -0.002216, 
+        -1e-06, 
+        -0.06
+    ], 
+    "small_prediction_threshold": 0.1, 
+    "conveyor_z_high": 0.3, 
+    "GRASPIT_LINK_TO_MOVEIT_LINK": [
+        [
+            0.0, 
+            0.0, 
+            -0.16
+        ], 
+        [
+            -0.7071067811882787, 
+            -0.7071067811848163, 
+            0.0, 
+            0.0
+        ]
+    ], 
+    "rendering": true, 
+    "circular_distance_low": 0.3, 
+    "EEF_LINK_INDEX": 0, 
+    "conveyor_speed": 0.03, 
+    "use_kf": true, 
+    "always_try_switching": true, 
+    "pose_freq": 5, 
+    "OPEN_POSITION": [
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0
+    ], 
+    "grasp_database_path": "assets/grasps/filtered_grasps_noise_100", 
+    "rank_by_manipulability": false, 
+    "distance_low": 0.15, 
+    "CLOSED_POSITION": [
+        1.1, 
+        0.0, 
+        1.1, 
+        0.0
+    ], 
+    "debug": false, 
+    "baseline_experiment_path": null, 
+    "robot_urdf": "/home/qsel/ireti_test/Spring_2021/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/mico/mico.urdf", 
+    "motion_mode": "dynamic_linear", 
+    "distance_high": 0.4, 
+    "use_seed_trajectory": false, 
+    "mesh_dir": "/home/qsel/ireti_test/Spring_2021/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/models"
+}

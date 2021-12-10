@@ -1,0 +1,148 @@
+{
+    "conveyor_urdf": "/home/jxu/icra_experiments/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/conveyor.urdf", 
+    "MOVEIT_LINK_TO_GRASPING_POINT": [
+        [
+            0.13, 
+            -0.0, 
+            -0.0
+        ], 
+        [
+            0.5, 
+            -0.5, 
+            0.5, 
+            -0.5
+        ]
+    ], 
+    "back_off": -0.075, 
+    "reachability_data_dir": "/home/jxu/icra_experiments/dynamic_grasping_ws_v2/src/ur5_robotiq_reachability_config/data", 
+    "fix_motion_planning_time": 0.14, 
+    "use_gt": false, 
+    "GRIPPER_JOINT_NAMES": [
+        "finger_joint", 
+        "left_inner_knuckle_joint", 
+        "left_inner_finger_joint", 
+        "right_outer_knuckle_joint", 
+        "right_inner_knuckle_joint", 
+        "right_inner_finger_joint"
+    ], 
+    "conveyor_z_low": 0.01, 
+    "num_trials": 100, 
+    "record_videos": false, 
+    "use_baseline_method": false, 
+    "use_lstm_prediction": false, 
+    "GRASPIT_LINK_TO_PYBULLET_LINK": [
+        [
+            0.0, 
+            0.0, 
+            0.0
+        ], 
+        [
+            0.0, 
+            0.706825181105366, 
+            0.0, 
+            0.7073882691671998
+        ]
+    ], 
+    "alpha": 0.5, 
+    "robot_config_name": "ur5_robotiq", 
+    "gripper_urdf": "/home/jxu/icra_experiments/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/robotiq_2f_85_hand/robotiq_arg2f_85_model.urdf", 
+    "max_check": 10, 
+    "obstacle_distance_high": 0.25, 
+    "use_previous_jv": true, 
+    "large_prediction_threshold": 0.3, 
+    "graspit_approach_dir": "x", 
+    "grasp_threshold": 0.1, 
+    "realtime": false, 
+    "fix_grasp_ranking_time": 0.135, 
+    "num_obstacles": 3, 
+    "approach_prediction": false, 
+    "distance_travelled_threshold": 0.1, 
+    "object_name": "mustard_bottle", 
+    "load_obstacles": true, 
+    "close_delay": 0.5, 
+    "use_box": true, 
+    "result_dir": "linear_obstacles_ur5_lebron_2021-02-22_22-55-30/mustard_bottle", 
+    "approach_prediction_duration": 1.0, 
+    "PYBULLET_LINK_COM": [
+        0.0, 
+        0.0, 
+        0.031451
+    ], 
+    "obstacle_distance_low": 0.15, 
+    "motion_aware_model_path": "assets/motion_aware_models/ur5_robotiq", 
+    "lstm_model_filepath": null, 
+    "result_file_path": "linear_obstacles_ur5_lebron_2021-02-22_22-55-30/mustard_bottle/mustard_bottle.csv", 
+    "embed_obstacles_sdf": false, 
+    "circular_distance_high": 0.5, 
+    "trajectory_dir": "linear_obstacles_ur5_lebron_2021-02-22_22-55-30/mustard_bottle/trajectories", 
+    "failure_only": false, 
+    "replay_trajectory": false, 
+    "distance_between_region": 0.05, 
+    "use_motion_aware": true, 
+    "lazy_threshold": 30.3, 
+    "exp_id": null, 
+    "use_joint_space_dist": true, 
+    "add_top_shelf": false, 
+    "PYBULLET_LINK_TO_COM": [
+        [
+            0.0, 
+            0.0, 
+            0.031451
+        ], 
+        [
+            0.0, 
+            0.0, 
+            0.0, 
+            1.0
+        ]
+    ], 
+    "pose_freq": 5, 
+    "small_prediction_threshold": 0.1, 
+    "conveyor_z_high": 0.01, 
+    "GRASPIT_LINK_TO_MOVEIT_LINK": [
+        [
+            0, 
+            0, 
+            0
+        ], 
+        [
+            0.7071067811865475, 
+            0.0, 
+            0.0, 
+            0.7071067811865476
+        ]
+    ], 
+    "rendering": false, 
+    "circular_distance_low": 0.3, 
+    "EEF_LINK_INDEX": 0, 
+    "conveyor_speed": 0.05, 
+    "use_kf": true, 
+    "always_try_switching": true, 
+    "use_reachability": true, 
+    "OPEN_POSITION": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "grasp_database_path": "assets/grasps/filtered_grasps_noise_robotiq_100_1.00", 
+    "rank_by_manipulability": false, 
+    "distance_low": 0.3, 
+    "CLOSED_POSITION": [
+        0.72, 
+        0.72, 
+        -0.72, 
+        0.72, 
+        0.72, 
+        -0.72
+    ], 
+    "debug": false, 
+    "baseline_experiment_path": null, 
+    "robot_urdf": "/home/jxu/icra_experiments/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/NONE", 
+    "motion_mode": "dynamic_linear", 
+    "distance_high": 0.7, 
+    "use_seed_trajectory": true, 
+    "mesh_dir": "/home/jxu/icra_experiments/dynamic_grasping_ws_v2/src/dynamic_grasping_pybullet/assets/models"
+}

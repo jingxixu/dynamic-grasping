@@ -1,0 +1,90 @@
+location: src
+sources:
+
+
+# UR Robot Includes
+- name: ur5_robotiq_meta_package
+  repo: 'git@github.com:iretiayo/ur5_robotiq_meta_package.git'
+  rev: melodic
+
+# MICO Robot Includes
+- name: kinova-ros
+  repo: git@github.com:jingxixu/kinova-ros.git
+  rev: master
+
+# GraspIt! ROS Packages
+- name: graspit_interface
+  repo: https://github.com/iretiayo/graspit_interface.git
+  rev: master
+- name: graspit_commander
+  repo: https://github.com/iretiayo/graspit_commander.git
+  rev: master
+- name: grid_sample_plugin
+  repo: https://github.com/CRLab/grid_sample_plugin.git
+  rev: master
+
+
+# Reachability Packages
+- name: reachability_utils
+  repo: http://github.com/CRLab/reachability_utils.git
+  rev: master
+- name: world_manager
+  repo: http://github.com/CRLab/world_manager.git
+  rev: master
+- name: ur5_robotiq_reachability_config
+  repo: git@github.com:CRLab/ur5_robotiq_reachability_config.git
+  rev: master
+- name: mico_reachability_config
+  repo: git@github.com:CRLab/mico_reachability_config.git
+  rev: master
+- name: reachability_energy_plugin
+  repo: git@github.com:CRLab/reachability_energy_plugin.git
+  rev: master
+
+
+# Dynamic Grasping Demo
+- name: dynamic_grasping_demo
+  repo: git@github.com:iretiayo/dynamic_grasping_demo.git
+  rev: ur_robotiq
+- name: pybullet_trajectory_execution
+  repo: git@github.com:CRLab/pybullet_trajectory_execution.git
+  rev: master
+- name: motion_prediction
+  repo: git@github.com:CRLab/motion_prediction.git
+  rev: master
+- name: manipulability_computation
+  repo: git@github.com:CRLab/manipulability_computation.git
+  rev: master
+- name: dynamic_grasping_pybullet/ikfastpy
+  repo: git@github.com:andyzeng/ikfastpy.git
+  rev: master
+
+
+# Moveit Packages
+- name: moveit
+  repo: git@github.com:iretiayo/moveit.git
+  rev: 726dd31bfde8d924a6b18ede55d923077830657b # chomp_new branch
+- name: moveit_msgs
+  repo: git@github.com:ros-planning/moveit_msgs.git
+  rev: 3175099a2b7fa75f74c36850a716b0fe603c8947
+- name: moveit_visual_tools
+  repo: git@github.com:ros-planning/moveit_visual_tools.git
+  rev: c166f8ee6412023b4183fc091abe6acbcdba2448
+- name: geometric_shapes
+  repo: git@github.com:ros-planning/geometric_shapes.git
+  rev: c69948a6d4a07686fc96eaabe4ffe27a62b34967
+- name: rviz_visual_tools
+  repo: git@github.com:PickNikRobotics/rviz_visual_tools.git
+  rev: 240b6ecf0f05ff5c08d4382b18db8c47b091663d
+
+
+# Camera Robot Calibration
+- name: lcsr_tf_tools
+  repo: 'git@github.com:jingxixu/lcsr_tf_tools.git'
+  rev: master
+
+
+# Object Recognition
+- name: Deep_Object_Pose
+  repo: 'git@github.com:CRLab/Deep_Object_Pose.git'
+  rev: dynamic_grasping
