@@ -205,7 +205,7 @@ class DynamicGraspingWorld:
             epoch_dir = os.listdir(os.path.join(self.motion_aware_model_path, self.target_name))[0]
             self.motion_aware_network.load_state_dict(torch.load(
                 os.path.join(self.motion_aware_model_path, self.target_name, epoch_dir,
-                             'motion_ware_net.pt')))
+                             'motion_ware_net.pt'), weights_only=True))
 
     def load_world(self):
         self.plane = p.loadURDF("plane.urdf")
